@@ -1,0 +1,108 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 1300px;
+  background: #C7979F;
+  color: #FFFFFF;
+  margin: 2em auto;
+}
+header {
+  align-items: center;
+  display: flex;
+  }
+.logo {
+  margin: auto auto auto 0;
+  }
+nav {
+  display: flex; 
+  position: -webkit-sticky; /* Safari */
+  align-items: center;
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+}
+.nav li {
+  padding-right: 1em;
+  display: inline-block; 
+  list-style-type: none;
+  font-size: 25px;
+}
+.button {
+  text-decoration: none;
+  border-width: 0px; 
+  background-color: #FFFFFF;
+  color: #595959;
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+  font-family: montserrat;
+  font-size: 22px;
+  display: inline-block;
+  padding: 6px 22px;
+} 
+.button:hover {
+  background-color: #595959;
+  color: #ffffff;
+  border: 3px solid #FFFFFF;
+}
+   /* ABOVE THIS IS EVERYTHING INSIDE THE WORK HEADER*/
+
+.myworkIntro { 
+  display: flex;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+.myworkName {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexcontainer {
+  display: flex;
+  font-size: 25px;
+  justify-content: space-evenly;
+  margin-top: 2em;
+}
+.flexcontainer p, .flexcontainer ul {
+  max-width: 440px;
+  margin: 0;
+}
+.flexcontainer ul li {
+  list-style-type: none;
+}
+
+/*
+  align-items: center;
+
+.myworkPrjs {
+  display: flex;
+} */
+/* ABOVE THIS IS EVERYTHING INSIDE THE MY WORK PROJECTS*/
+
+.sayhello, footer {
+  display: flex; 
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column; 
+}
+.uparrow {
+  margin: 20px auto;
+  text-align: center;
+  height: 60px;
+  max-width: 60px;
+}
+.uparrow img {
+  width: 100%;
+  height: auto;
+}
+footer { 
+  font-size: 40px;
+}
+.copywrite {
+  font-size: 18px;
+  margin: 55px auto;
+}
+  /* ABOVE THIS IS EVERYTHING INSIDE SAY HELLO! AND FOOTER*/
