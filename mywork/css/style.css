@@ -73,13 +73,53 @@ h1 {
 .flexcontainer ul li {
   list-style-type: none;
 }
-
-/*
-  align-items: center;
-
 .myworkPrjs {
-  display: flex;
-} */
+  filter: drop-shadow(8px 8px 6px #6e2d6b);
+  background-color: #FFFFFF;
+}
+.myworkcardsPrj {
+  max-width: 1100px;
+  padding: 30px;
+  color: #595959;
+  margin: 80px auto;
+  position: relative;
+}
+.myworkopacityPrj {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.viewworkButton {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.myworkopacityparentPrj {
+  background-color: #595959;
+}
+.myworkcardsPrj:hover .myworkopacityPrj {
+  opacity: 0.3;
+}
+.myworkcardsPrj:hover .viewworkButton {
+  opacity: 1;
+}
+.text {
+  background-color: #ffffff;
+  color: #595959;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
 /* ABOVE THIS IS EVERYTHING INSIDE THE MY WORK PROJECTS*/
 
 .sayhello, footer {
@@ -94,7 +134,7 @@ h1 {
   height: 60px;
   max-width: 60px;
 }
-.uparrow img {
+.uparrow img, .myworkcardsPrj img {
   width: 100%;
   height: auto;
 }

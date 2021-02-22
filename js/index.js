@@ -1,36 +1,3 @@
-/* console.log("Your index.js file is loaded correctly!");
-
-$("button").click(function(){
-    $(this).open();
-  });
-
-$("#resumebutton").hover(function(){
-    alert("color change from white to rose gold with white stroke");
-  },
-  function(){
-    alert("color change back to white background with grey font");
-  });
-
-  $(".viewworkbutton").click(function(){
-    $(this).open();
-  });
-
-  $("#workheroImg").hover(function(){
-    alert("modale screen on view work button appears");
-  },
-  function(){
-    alert("click resume button");
-  });
-
-$("#uparrow").mouseup(function(){
-    alert("Mouse up to each section separately on portfolio body pages!");
-  });
-
-  $( function() {
-    $( "#dialog" ).dialog();
-  } );
-  */
- 
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
